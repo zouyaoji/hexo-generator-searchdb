@@ -4,7 +4,7 @@ var pathFn = require('path');
 var config = hexo.config.search = merge({
 	path: 'search.xml',
 	field: 'post',
-    format: 'html'
+    format: 'html',
     limit: '10000'
 }, hexo.config.search);
 

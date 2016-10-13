@@ -1,7 +1,7 @@
 {
-  "name": "hexo-generator-search",
-  "version": "1.0.2",
-  "description": "Seach generator plugin for Hexo",
+  "name": "hexo-generator-searchdb",
+  "version": "1.0.1",
+  "description": "Seach generator plugin for Hexo(modified)",
   "main": "index",
   "directories": {
     "lib": "./lib"
@@ -14,7 +14,7 @@
     "search",
     "generator"
   ],
-  "author": "paichyperiondev <PaicHyperion@qq.com> (https://github.com/PaicHyperionDev)",
+  "author": "flashlab <zhengjuefei25@163.com> (https://github.com/flashlab)",
   "license": "MIT",
   "dependencies": {
     "ejs": "^1.0.0",
@@ -24,16 +24,17 @@
   "bugs": {
     "url": "https://github.com/flashlab/hexo-generator-search/issues"
   },
-  "homepage": "https://github.com/hexojs/hexo-generator-search#readme",
+  "homepage": "https://github.com/flashlab/hexo-generator-search#readme",
   "_npmVersion": "2.11.0",
   "_nodeVersion": "0.12.4",
   "_npmUser": {
-    "name": "paichyperiondev",
-    "email": "PaicHyperion@qq.com"
+    "name": "flashlab",
+    "email": "zhengjuefei25@163.com"
   },
   "maintainers": [
     "maoshuhao <326810048@qq.com>",
-    "wzpan <cs.wzpan@gmail.com>"
+    "wzpan <cs.wzpan@gmail.com>",
+    "flashlab <zhengjuefei25@163.com>"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
