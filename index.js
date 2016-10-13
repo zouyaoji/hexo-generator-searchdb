@@ -3,7 +3,8 @@ var pathFn = require('path');
 
 var config = hexo.config.search = merge({
 	path: 'search.xml',
-	field: 'post'
+	field: 'post',
+        format: 'raw'
 }, hexo.config.search);
 
 // Set default search path

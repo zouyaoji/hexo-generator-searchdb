@@ -6,7 +6,7 @@
     <entry>
       <title><%-: post.title | cdata %></title>
       <url><%- encodeURI(post.permalink) %></url>
-      <content type="html"><%-: post.content | cdata %></content>
+      <content type="text"><%-: raw ? post.raw : post.content | cdata %></content>
     </entry>
     <% }) %>
   <% } %>
@@ -15,7 +15,7 @@
     <entry>
       <title><%-: page.title | cdata %></title>
       <url><%- encodeURI(page.permalink) %></url>
-      <content type="html"><%-: page.content | cdata %></content>
+      <content type="text"><%-: raw ? page.raw : page.content | cdata %></content>
     </entry>
     <% }) %>
   <% } %>
