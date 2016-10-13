@@ -2,12 +2,13 @@
 <search>
   <% var url = config.url + config.root %>
   <% if(posts){ %>
-    <% posts.each(function(post){ %>
+    <% posts.slice(0,limit).each(function(post){ %>
     <entry>
       <title><%-: post.title | cdata %></title>
       <url><%- encodeURI(post.permalink) %></url>
-      <content type="text"><%-: raw ? post.raw : post.content | cdata %></content>
+      <content type="text"><%-: raw ? post[raw] : post.content | cdata %></content>
     </entry>
+
     <% }) %>
   <% } %>
   <% if(pages){ %>
@@ -15,7 +16,7 @@
     <entry>
       <title><%-: page.title | cdata %></title>
       <url><%- encodeURI(page.permalink) %></url>
-      <content type="text"><%-: raw ? page.raw : page.content | cdata %></content>
+      <content type="text"><%-: raw ? page[raw] : page.content | cdata %></content>
     </entry>
     <% }) %>
   <% } %>
