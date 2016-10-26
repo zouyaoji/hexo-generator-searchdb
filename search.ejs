@@ -5,7 +5,7 @@
     <% posts.slice(0,limit).each(function(post){ %>
     <entry>
       <title><%-: post.title | cdata %></title>
-      <url><%- encodeURI(post.permalink) %></url>
+      <url><%- encodeURIComponent(post.path) %></url>
       <content type="text"><%-: raw ? post[raw] : post.content | cdata %></content>
     </entry>
 
