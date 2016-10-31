@@ -15,7 +15,7 @@
     <% pages.each(function(page){ %>
     <entry>
       <title><%-: page.title | cdata %></title>
-      <url><%- encodeURI(page.permalink) %></url>
+      <url><%- encodeURIComponent(post.path) %></url>
       <content type="text"><%-: raw ? page[raw] : page.content | cdata %></content>
     </entry>
     <% }) %>
