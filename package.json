@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-searchdb",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Seach generator plugin for Hexo(modified)",
   "main": "index",
   "directories": {
@@ -19,7 +19,7 @@
   "dependencies": {
     "ejs": "^1.0.0",
     "utils-merge": "^1.0.0",
-    "hexo-util": "latest"
+    "striptags": "latest"
   },
   "bugs": {
     "url": "https://github.com/flashlab/hexo-generator-search/issues"
