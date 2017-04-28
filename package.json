@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-searchdb",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Seach generator plugin for Hexo(modified)",
   "main": "index",
   "directories": {
@@ -33,7 +33,7 @@
   },
   "maintainers": [
     "maoshuhao <326810048@qq.com>",
-    "wzpan <cs.wzpan@gmail.com>",
+    "wzpan <m@hahack.com>",
     "flashlab <zhengjuefei25@163.com>"
   ],
   "scripts": {
