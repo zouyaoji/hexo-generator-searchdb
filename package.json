@@ -1,7 +1,7 @@
 {
   "name": "hexo-generator-searchdb",
-  "version": "1.0.6",
-  "description": "Seach generator plugin for Hexo(modified)",
+  "version": "0.0.7",
+  "description": "Seach generator plugin for Hexo, for nodejs<4.2(modified)",
   "main": "index",
   "directories": {
     "lib": "./lib"
@@ -18,8 +18,8 @@
   "license": "MIT",
   "dependencies": {
     "ejs": "^1.0.0",
-    "utils-merge": "^1.0.0",
-    "striptags": "latest"
+    "hexo-util": "^0.6.0",
+    "utils-merge": "^1.0.0"
   },
   "bugs": {
     "url": "https://github.com/flashlab/hexo-generator-search/issues"
