@@ -35,3 +35,7 @@ search:
   * **excerpt** - only collect excerpt.
   * **more** - act as you think.
 - **limit** - define the maximum number of posts being indexed, always prefer the newest.
+
+## Notice
+
+For node.js version < 4.2.2, please use v0.X.X please.
