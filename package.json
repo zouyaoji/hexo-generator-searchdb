@@ -1,10 +1,10 @@
 {
-  "name": "hexo-generator-searchdb",
+  "name": "hexo-generator-searchzt",
   "version": "1.0.7",
   "description": "Seach generator plugin for Hexo(modified)",
   "main": "index",
   "directories": {
-    "lib": "./lib"
+    "lib": "lib"
   },
   "engines": {
     "node": ">= 4.2.2"
