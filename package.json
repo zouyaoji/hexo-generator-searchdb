@@ -14,7 +14,7 @@
     "search",
     "generator"
   ],
-  "author": "flashlab <zhengjuefei25@163.com> (https://github.com/flashlab)",
+  "author": "zouyaoji <370681295@qq.com> (https://github.com/zouyaoji)",
   "license": "MIT",
   "dependencies": {
     "ejs": "^1.0.0",
@@ -22,25 +22,23 @@
     "striptags": "latest"
   },
   "bugs": {
-    "url": "https://github.com/flashlab/hexo-generator-search/issues"
+    "url": "https://github.com/zouyaoji/hexo-generator-searchzt/issues"
   },
-  "homepage": "https://github.com/flashlab/hexo-generator-search#readme",
+  "homepage": "https://github.com/zouyaoji/hexo-generator-searchzt#readme",
   "_npmVersion": "4.0.3",
   "_nodeVersion": "6.10.2",
   "_npmUser": {
-    "name": "flashlab",
-    "email": "zhengjuefei25@163.com"
+    "name": "zouyaoji",
+    "email": "370681295@qq.com"
   },
   "maintainers": [
-    "maoshuhao <326810048@qq.com>",
-    "wzpan <m@hahack.com>",
-    "flashlab <zhengjuefei25@163.com>"
+    "zouyaoji <370681295@qq.com>"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flashlab/hexo-generator-search.git"
+    "url": "git+https://github.com/zouyaoji/hexo-generator-searchzt.git"
   }
 }

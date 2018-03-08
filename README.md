@@ -1,15 +1,15 @@
-# hexo-generator-searchdb
+# hexo-generator-searchzt
 
 [![npm](https://img.shields.io/badge/npmjs-1.0.7-brightgreen.svg)](https://www.npmjs.com/package/hexo-generator-searchdb)
 
 Generate search data for Hexo 3.0. This plugin is used for generating a search index file, which contains all the neccessary data of your articles that you can use to write a local search engine for your blog. Supports both XML and JSON format output.
 
-- [Demo](http://blog.zzbd.org) - work with Next theme.
+- [Demo](https://zouyaoji.top) - work with Next theme.
 
 ## Install
 
 ``` bash
-$ npm install hexo-generator-searchdb --save
+$ npm install hexo-generator-searchzt --save
 ```
 
 ## Options
